@@ -68,7 +68,11 @@
   padding-bottom: 50px;
   line-height: 80px;
   color: #fff;
+
   font-weight: 700 !important;
+
+  font-weight: 500 !important;
+
   text-align: center;
 }
 .jumbo {
@@ -2295,6 +2299,7 @@ figure {
                
 	}
 
+
 	.button2 {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2321,12 +2326,17 @@ figure {
 			margin-top:0px;
 			background-color:#b25eed;}
 
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
+
 			background-color: #b25eed;
+
+			background-color: #ff7c96;
+
 		}
 
 		input[type="submit"]:active,
@@ -2732,3 +2742,6 @@ figure {
 			}
 
 		}
+
+		}
+
