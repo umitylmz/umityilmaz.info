@@ -19,6 +19,10 @@
 		vertical-align: baseline;
 	}
 
+
+
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1456,6 +1460,8 @@ figure {
 
 /* Basic */
 
+
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -1533,12 +1539,13 @@ figure {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 8em;
+		font-size: 14pt;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 1000;
+		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 0.2em 0;
 	}
@@ -2039,13 +2046,29 @@ figure {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		padding-left: 1em;
+
 	}
 
-		ul li {
-			padding-left: 0.5em;
+		ul q {
+			padding-left: 1em;
+
+
+
 		}
+
+			ul li {
+			
+		margin: 0 0 0 9em;
+		font-size: 14pt;
+
+
+		}
+
+		 ul a{
+			 	font-size: 50px;
+			 }
 
 		ul.alt {
 			list-style: none;
@@ -2285,7 +2308,7 @@ figure {
 		color: !important;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 200;
+		font-weight: 1000;
 		height: 2.85em;
 		line-height: 2.95em;
 		padding: 0 1.5em;
@@ -2315,7 +2338,7 @@ figure {
 		color: !important;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 200;
+		font-weight: 1000;
 		height: 2.85em;
 		line-height: 2.95em;
 		padding: 0 1.5em;
