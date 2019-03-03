@@ -2316,6 +2316,7 @@ figure {
 		white-space: nowrap;
 		margin-bottom:0px;
 			margin-top:0px;
+		outline:none;
 
                  
                
@@ -2334,6 +2335,7 @@ figure {
 		
 		border-radius: 4px;
 		border: 0;
+		outline:none;
 		color: !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2348,11 +2350,42 @@ figure {
 			margin-top:0px;
 			background-color:#b25eed;}
 
+					.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+   font-size: 45px;
+  margin-top: -1px;
+   transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 31px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 			.button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+
 }
 
 .button span:after {
@@ -2366,6 +2399,7 @@ figure {
   top: 0;
   right: -20px;
   transition: 0.5s;
+
 }
 
 .button:hover span {
@@ -2386,7 +2420,7 @@ figure {
 
 			background-color: #b25eed;
 
-			background-color: #ff7c96;
+			
 
 		}
 
