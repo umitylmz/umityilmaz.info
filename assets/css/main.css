@@ -2360,9 +2360,9 @@ figure {
 .button2 span:after {
   content: '\00bb';
    font-size: 45px;
-  margin-top: -1px;
-   transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
+  margin-top: 5.5px;
+   transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
   position: absolute;
   opacity: 0;
   top: 0;
@@ -2391,9 +2391,9 @@ figure {
 .button span:after {
   content: '\00bb';
    font-size: 45px;
-  margin-top: -1px;
-   transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
+  margin-top: 5.5px;
+   transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
   position: absolute;
   opacity: 0;
   top: 0;
